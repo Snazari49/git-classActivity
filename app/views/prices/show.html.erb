@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Vendor:</strong>
+  <%= @price.vendor %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @price.product %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @price.price %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @price.quantity %>
+</p>
+
+<p>
+  <strong>Quantity discount:</strong>
+  <%= @price.quantity_discount %>
+</p>
+
+<%= link_to 'Edit', edit_price_path(@price) %> |
+<%= link_to 'Back', prices_path %>
